@@ -1,0 +1,22 @@
+{
+	"name": "toto",
+	"version": "1.0.0",
+	"description": "",
+	"main": "toto.js",
+	"scripts": {
+		"start": "node toto.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pyotoru/toto-app.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pyotoru/toto-app/issues"
+	},
+	"homepage": "https://github.com/pyotoru/toto-app#readme",
+	"dependencies": {
+		"bootstrap": "^4.6.0"
+	}
+}
