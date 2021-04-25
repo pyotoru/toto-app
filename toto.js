@@ -12,11 +12,10 @@ function returnRandom() {
 	}
 }
 
-var array = [];
+var result = [];
 function getRandom() {
 	for (i = 0; i <= 12; i++) {
-		array.push(returnRandom());
+		result.push(returnRandom());
 	}
-	var result = array;
 	document.getElementById("result").innerHTML = result;
 }
