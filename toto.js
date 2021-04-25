@@ -17,5 +17,10 @@ function getRandom() {
 	for (i = 0; i <= 12; i++) {
 		result.push(returnRandom());
 	}
-	document.getElementById("result").innerHTML = result;
+	document.getElementById("result1").innerHTML = result;
+	result = [];
+}
+
+function removeAll() {
+	document.getElementById("result1").innerHTML = [];
 }
