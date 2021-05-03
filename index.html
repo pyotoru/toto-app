@@ -1,9 +1,3 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
 <!DOCTYPE html>
 <div class="container-fluid">
     <html lang="en">
@@ -11,26 +5,84 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
         <title>Toto app</title>
     </head>
+    <h1>Generate your toto bet</h1>
+    </br>
     <body class="text-center">
-        <h1>This is your toto bet</h1>
+        <ul class="tabs">
+            <li data-tab-target='#toto' class="tab">toto</li>
+            <li data-tab-target='#a-group' class=" tab">A group</li>
+            <li data-tab-target='#b-group' class=" tab">B group</li>
+            <li data-tab-target='#goals' class=" tab">Goals</li>
+        </ul>
+        <div class="tab-content">
+            <div id="toto" data-tab-content>
+                <h2>toto</h2>
+                </br>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <button class="btn btn-block btn-primary" onclick="getRandom()">GET YOUR RESULTS <i
+                                class="far fa-futbol"></i></button>
+                    </div>
+                    <div class="col-xs-6">
+                        <button class="btn btn-block btn-danger" onclick="removeAll()">CLEAR <i
+                                class="fas fa-trash-alt"></i></button>
+                        <script src="./index.js"></script>
+                    </div>
+                </div>
+                </br></br>
+                <div id="result1" style="font-size : 30px">
+                </div>
+            </div>
+            <div id="a-group" data-tab-content>
+                <h2>A group</h2>
+                </br>
+                <div class="row">
+                    <h2>to be announced</h2>
+                </div>
+                </br></br>
+                <div id="result1" style="font-size : 30px">
+                </div>
+                <script src="./index.js">
+                </script>
+            </div>
+            <div id="b-group" data-tab-content>
+                <h2>B group</h2>
+                </br>
+                <div class="row">
+                    <h2>to be announced</h2>
+                </div>
+                </br></br>
+                <div id="result1" style="font-size : 30px">
+                </div>
+                <script src="./index.js">
+                </script>
+            </div>
+            <div id="goals" data-tab-content>
+                <h2>Goals</h2>
+                </br>
+                <div class="row">
+                    <h2>to be announced</h2>
+                </div>
+                </br></br>
+                <div id="result1" style="font-size : 30px">
+                </div>
+                <script src="./index.js">
+                </script>
+            </div>
+        </div>
+
         </br>
-        <div class="row">
-            <div class="col-xs-6">
-                <button class="btn btn-block btn-primary" onclick="getRandom()">GET YOUR RESULTS <i
-                        class="far fa-futbol"></i></button>
-            </div>
-            <div class="col-xs-6">
-                <button class="btn btn-block btn-danger" onclick="removeAll()">CLEAR <i
-                        class="fas fa-trash-alt"></i></button>
-            </div>
-        </div>
-        </br></br>
-        <div id="result1" style="font-size : 30px">
-        </div>
-        <script src="./index.js">
-        </script>
+
     </body>
     </html>
 </div>

@@ -5,3 +5,31 @@ body {
 h1 {
 	color: black;
 }
+
+[data-tab-content] {
+	display: none;
+}
+
+.active[data-tab-content] {
+	display: block;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	border: 1px solid black;
+}
+
+.tab {
+	cursor: pointer;
+	padding: 10px;
+}
+
+.tab.active {
+	background-color: #5f9eaa;
+}
+
+.tab:hover {
+	background-color: cadetblue;
+}
