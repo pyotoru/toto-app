@@ -12,5 +12,5 @@ Home team win (1): 50%
 Home team lose (2): 30%
 </br>
 Draw (0): 20%
-</br>
+</br></br>
 Apart from toto, there is also mini-toto A and mini-toto B that consist of only 5 matches each. You will not get as much money, but it is easier to win.
