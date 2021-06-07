@@ -24,3 +24,5 @@ function getRandom() {
 function removeAll() {
 	document.getElementById("result1").innerHTML = [];
 }
+
+console.log(getRandom());
